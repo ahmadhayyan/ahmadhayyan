@@ -8,7 +8,7 @@
 					border: 3px solid #000;
 					border-radius: 3px;
 					padding: 4px 8px;
-					background: transparent;
+					background: #383a59;
 					font-weight: bold;
 					cursor: pointer;
 					box-sizing: border-box;
@@ -24,7 +24,7 @@
 				}
 				.img::before{
 					content: "";
-					background: transparent;
+					background: #383a59;
 					border: 3px solid #000;
 					border-radius: 3px;
 					box-sizing: border-box;
@@ -57,9 +57,21 @@
 				.img:hover::after{
 					transform: translate(-2px, -3px);
 				}
+				.logo{
+					width: 200px;
+					height: 250px;
+					background-image: url(banner.png);
+					background-position: center;
+					background-size: contain;
+					background-repeat: no-repeat;
+				}
 			</style>
 			<div class="img">
-				<center><a href="https://ahmadhayyan.github.io"><img src="banner.png"/></a></center>
+				<center>
+					<a href="https://ahmadhayyan.github.io">
+						<div class="logo"></div>
+					</a>
+				</center>
 			</div>
 		</div>
 	</foreignObject>
